@@ -5,12 +5,15 @@ This App is composed of two directories : Laravel and ReactApp
 # The steps to lunch the app:
 
 1. Go to the Laravel directory : cd Laravel
-2. edit the .env file : setp your own database
-3. migrate your database using : php artisan migrate --seed
-4. start the backend server : php artisan serve
-5. open new terminal and make sure you are in the ucheedApp directory not Laravel
-6. from The ucheedApp directory go the ReactApp directory : cd ReactApp
-7. start the server : npm start
+2. edit the .env file : setup your own database
+3. from the terminal install everything for laravel: composer install
+4. migrate your database using : php artisan migrate --seed
+5. generate a key : php artisan key:generate (in case the .env file doesn't have an APP_KEY=)
+6. start the backend server : php artisan serve
+7. open new terminal and make sure you are in the ucheedApp directory not Laravel
+8. from The ucheedApp directory go the ReactApp directory : cd ReactApp
+9. from the terminal install everything for react : npm install
+10. start the server : npm start
 
 # Notice
 
