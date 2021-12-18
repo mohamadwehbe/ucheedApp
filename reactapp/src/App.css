@@ -1,0 +1,30 @@
+body {
+  margin: 10px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+ul li a{
+  font-size: large;
+  text-decoration: none;
+  color : #ffffff;
+}
+
+ul li a:hover{
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.active{
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
