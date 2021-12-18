@@ -9,7 +9,7 @@ This App is composed of two directories : Laravel and ReactApp
 3. migrate your database using : php artisan migrate --seed
 4. start the backend server : php artisan serve
 5. open new terminal and make sure you are in the ucheedApp directory not Laravel
-6. from The cheeApp directory go the ReactApp directory : cd ReactApp
+6. from The ucheedApp directory go the ReactApp directory : cd ReactApp
 7. start the server : npm start
 
 # Notice
